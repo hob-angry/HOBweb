@@ -38,7 +38,7 @@ export const QA: FC = () => {
         <p className="flex justify-center text-[25px] md:text-[30px] lg:text-[35px] font-bold">
           - Q & A -
         </p>
-        <p className="mt-5 text-[20px] flex justify-center">
+        <p className="mt-5 mr-5 nl-5 text-[20px] flex justify-center">
           お問い合わせはこちらから回答させていただきます。
           <br />
           運営陣が確認でき次第、回答させていただきます。
@@ -65,3 +65,4 @@ export const QA: FC = () => {
     </div>
   );
 };
+
