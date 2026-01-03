@@ -24,7 +24,7 @@ export const MemberList: FC = () => {
 
       const member: Member[] = values.map((row) => ({
         name: row[0] ?? "Name",
-        icon: row[1] ?? "No Image",
+        icon: row[1] ?? "https://s12.gifyu.com/images/bhh3x.jpg",
         intro: row[2] ?? "Main text",
       }));
 
@@ -53,3 +53,4 @@ export const MemberList: FC = () => {
     </div>
   );
 };
+
