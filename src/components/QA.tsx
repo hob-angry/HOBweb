@@ -48,7 +48,7 @@ export const QA: FC = () => {
       </div>
       <div className="flex justify-center mt-10">
         <button className="btn btn-xl bg-orange-400">
-          <a href="https://forms.gle/yRL5L8bM8W2wMJWt5">
+          <a href="https://forms.gle/yRL5L8bM8W2wMJWt5" target="_blank">
             お問い合わせはこちらから
           </a>
         </button>
@@ -65,5 +65,6 @@ export const QA: FC = () => {
     </div>
   );
 };
+
 
 
